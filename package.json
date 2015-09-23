@@ -1,0 +1,19 @@
+{
+  "name": "require-ensure-shim",
+  "version": "1.0.0",
+  "description": "node.js shim for webpacks require.ensure ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpherzog/require-ensure-shim.git"
+  },
+  "author": "Hans-Peter Herzog <hans-peter.herzog@cdn-hph.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpherzog/require-ensure-shim/issues"
+  },
+  "homepage": "https://github.com/hpherzog/require-ensure-shim#readme"
+}
