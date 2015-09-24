@@ -9,6 +9,7 @@ How to use
 
 Put the following code in every file you define a split point with require.ensure. It is important that you first shim and then define the split point.
 
+```js
     require('require-ensure-shim').shim(require);
 
     require.ensure(['./module1'], function(require){
@@ -16,3 +17,4 @@ Put the following code in every file you define a split point with require.ensur
         var module1 = require('./module1');
         module1();
     });
+```
