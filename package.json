@@ -1,6 +1,6 @@
 {
   "name": "require-ensure-shim",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node.js shim for webpacks require.ensure ",
   "main": "index.js",
   "scripts": {

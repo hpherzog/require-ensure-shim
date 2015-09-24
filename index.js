@@ -1,8 +1,13 @@
 
-if(typeof(require.ensure) !== "function")
-{
-    require.ensure = function(modules, callback)
+
+
+module.exports.shim = function(newRequire) {
+
+    if(typeof(newRequire.ensure) !== "function")
     {
-        callback(require);
+        newRequire.ensure = function(modules, callback)
+        {
+            callback(newRequire);
+        }
     }
-}
+};
