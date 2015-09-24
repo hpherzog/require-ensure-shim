@@ -1,7 +1,7 @@
 {
   "name": "require-ensure-shim",
-  "version": "1.0.3",
-  "description": "node.js shim for webpacks require.ensure ",
+  "version": "1.0.4",
+  "description": "node.js shim for webpack modules that use code splitting via \"require.ensure()\".",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
