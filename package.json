@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/hpherzog/require-ensure-shim.git"
   },
-  "author": "Hans-Peter Herzog <hans-peter.herzog@cdn-hph.de>",
+  "author": "Hans-Peter Herzog @hpherzog",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hpherzog/require-ensure-shim/issues"
